@@ -19,3 +19,8 @@ go test -v
 ```go
 go test -v ./...
 ```
+
+- build your app
+```go
+go build
+```
