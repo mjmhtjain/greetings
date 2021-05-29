@@ -24,3 +24,8 @@ go test -v ./...
 ```go
 go build
 ```
+
+- edit go mod
+```go
+go mod edit -replace=example.com/greetings=../greetings
+```
